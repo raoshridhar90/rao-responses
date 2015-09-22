@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<technical_communication_department>
+	<faculty_offices>
+		<audb>
+			<faculty_member>
+				<faculty_name> Ryan Boettger </faculty_name>
+				<faculty_office_number> 314 </faculty_office_number>
+			</faculty_member>
+			<faculty_member>
+				<faculty_name> Christopher Lam </faculty_name>
+				<faculty_office_number> 302 </faculty_office_number>
+			</faculty_member>
+		</audb>
+	</faculty_offices>
+</technical_communication_department>
