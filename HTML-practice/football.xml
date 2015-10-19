@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsltproject.xsl"?>
+
+<player_statistics>
+<team>
+<attacker>
+	<team_name> Real Madrid </team_name>
+	<attacker_name> Cristiano Ronaldo </attacker_name>
+	<games_played> 35 </games_played>
+	<successful_passes> 941 </successful_passes>
+	<pass_completion> 81% </pass_completion>
+	<chances_created> 73 </chances_created>
+	<assists> 16 </assists>
+	<total_shots> 225 </total_shots>
+	<goals_scored> 48 </goals_scored>
+</attacker>
+<attacker>
+<attacker_name> James Rodriguez </attacker_name>
+	<games_played> 29 </games_played>
+	<successful_passes> 1220 </successful_passes>
+	<pass_completion> 87% </pass_completion>
+	<chances_created> 77 </chances_created>
+	<assists> 13 </assists>
+	<total_shots> 53 </total_shots>
+	<goals_scored> 13 </goals_scored>
+</attacker>
+<attacker>
+<attacker_name> Karim Benzema </attacker_name>
+	<games_played> 29 </games_played>
+	<successful_passes> 621 </successful_passes>
+	<pass_completion> 79% </pass_completion>
+	<chances_created> 44 </chances_created>
+	<assists> 10 </assists>
+	<total_shots> 69 </total_shots>
+	<goals_scored> 15 </goals_scored>
+</attacker>
+<attacker>
+<attacker_name> Gareth Bale </attacker_name>
+	<games_played> 31 </games_played>
+	<successful_passes> 678 </successful_passes>
+	<pass_completion> 78% </pass_completion>
+	<chances_created> 49 </chances_created>
+	<assists> 9 </assists>
+	<total_shots> 103 </total_shots>
+	<goals_scored> 13 </goals_scored>
+</attacker>
+</team>
+<team>	
+<attacker>
+	<team_name> Barcelona </team_name>
+<attacker_name> Lionel Messi </attacker_name>
+	<games_played> 38 </games_played>
+	<successful_passes> 1902 </successful_passes>
+	<pass_completion> 83% </pass_completion>
+	<chances_created> 93 </chances_created>
+	<assists> 18 </assists>
+	<total_shots> 187 </total_shots>
+	<goals_scored> 43 </goals_scored>
+</attacker>
+<attacker>	
+	<team_name> Barcelona </team_name>
+<attacker_name> Neymar </attacker_name>
+	<games_played> 33 </games_played>
+	<successful_passes> 1237 </successful_passes>
+	<pass_completion> 81% </pass_completion>
+	<chances_created> 52 </chances_created>
+	<assists> 7 </assists>
+	<total_shots> 95 </total_shots>
+	<goals_scored> 22 </goals_scored>
+</attacker>
+<attacker>
+<attacker_name> Luis Suarez </attacker_name>
+	<games_played> 27 </games_played>
+	<successful_passes> 569 </successful_passes>
+	<pass_completion> 77% </pass_completion>
+	<chances_created> 57 </chances_created>
+	<assists> 14 </assists>
+	<total_shots> 75 </total_shots>
+	<goals_scored> 16 </goals_scored>
+</attacker>		
+<attacker>
+<attacker_name> Ivan Rakitic </attacker_name>
+	<games_played> 32 </games_played>
+	<successful_passes> 1536 </successful_passes>
+	<pass_completion> 91% </pass_completion>
+	<chances_created> 33 </chances_created>
+	<assists> 7 </assists>
+	<total_shots> 34 </total_shots>
+	<goals_scored> 5 </goals_scored>
+</attacker>
+</team>
+<team>
+	<attacker>
+	<team_name> Chelsea </team_name>
+<attacker_name> Diego Costa </attacker_name>
+	<games_played> 26 </games_played>
+	<successful_passes> 550 </successful_passes>
+	<pass_completion> 78% </pass_completion>
+	<chances_created> 41 </chances_created>
+	<assists> 3 </assists>
+	<total_shots> 76 </total_shots>
+	<goals_scored> 20 </goals_scored>
+</attacker>
+<attacker>
+<attacker_name> Eden Hazard </attacker_name>
+	<games_played> 38 </games_played>
+	<successful_passes> 1909 </successful_passes>
+	<pass_completion> 87% </pass_completion>
+	<chances_created> 100 </chances_created>
+	<assists> 9 </assists>
+	<total_shots> 78 </total_shots>
+	<goals_scored> 14 </goals_scored>
+</attacker>
+<attacker>
+<attacker_name> Willian </attacker_name>
+	<games_played> 36 </games_played>
+	<successful_passes> 1149 </successful_passes>
+	<pass_completion> 85% </pass_completion>
+	<chances_created> 49 </chances_created>
+	<assists> 3 </assists>
+	<total_shots> 55 </total_shots>
+	<goals_scored> 2 </goals_scored>
+</attacker>
+<attacker>
+<attacker_name> Oscar </attacker_name>
+	<games_played> 28 </games_played>
+	<successful_passes> 1060 </successful_passes>
+	<pass_completion> 82% </pass_completion>
+	<chances_created> 36 </chances_created>
+	<assists> 8 </assists>
+	<total_shots> 72 </total_shots>
+	<goals_scored> 6 </goals_scored>
+</attacker>
+</team>
+<team>
+<attacker>
+<attacker_name> Olivier Giroud </attacker_name>
+	<team_name> Arsenal </team_name>
+	<games_played> 27 </games_played>
+	<successful_passes> 515 </successful_passes>
+	<pass_completion> 68% </pass_completion>
+	<chances_created> 28 </chances_created>
+	<assists> 3 </assists>
+	<total_shots> 70 </total_shots>
+	<goals_scored> 14 </goals_scored>
+</attacker>
+<attacker>
+<attacker_name> Alexis Sanchez </attacker_name>
+	<games_played> 35 </games_played>
+	<successful_passes> 1117 </successful_passes>
+	<pass_completion> 77% </pass_completion>
+	<chances_created> 79 </chances_created>
+	<assists> 8 </assists>
+	<total_shots> 121 </total_shots>
+	<goals_scored> 16 </goals_scored>
+</attacker>
+<attacker>
+<attacker_name> Mesut Ozil </attacker_name>
+	<games_played> 22 </games_played>
+	<successful_passes> 1227 </successful_passes>
+	<pass_completion> 88% </pass_completion>
+	<chances_created> 70 </chances_created>
+	<assists> 5 </assists>
+	<total_shots> 29 </total_shots>
+	<goals_scored> 4 </goals_scored>
+</attacker>
+<attacker>
+<attacker_name> Theo Walcott </attacker_name>
+	<games_played> 14 </games_played>
+	<successful_passes> 89 </successful_passes>
+	<pass_completion> 87% </pass_completion>
+	<chances_created> 4 </chances_created>
+	<assists> 0 </assists>
+	<total_shots> 23 </total_shots>
+	<goals_scored> 5 </goals_scored>
+</attacker>
+</team>
+<team>
+<attacker>
+	<attacker_name> Sergio Aguero </attacker_name>
+	<team_name> Manchester City </team_name>
+	<games_played> 33 </games_played>
+	<successful_passes> 712 </successful_passes>
+	<pass_completion> 85% </pass_completion>
+	<chances_created> 33 </chances_created>
+	<assists> 8 </assists>
+	<total_shots> 148 </total_shots>
+	<goals_scored> 26 </goals_scored>
+</attacker>
+<attacker>
+<attacker_name> David Silva </attacker_name>
+	<games_played> 32 </games_played>
+	<successful_passes> 1822 </successful_passes>
+	<pass_completion> 86% </pass_completion>
+	<chances_created> 93 </chances_created>
+	<assists> 7 </assists>
+	<total_shots> 66 </total_shots>
+	<goals_scored> 12 </goals_scored>
+</attacker>
+<attacker>
+<attacker_name> Yaya Toure </attacker_name>
+	<games_played> 29 </games_played>
+	<successful_passes> 2097 </successful_passes>
+	<pass_completion> 89% </pass_completion>
+	<chances_created> 33 </chances_created>
+	<assists> 1 </assists>
+	<total_shots> 89 </total_shots>
+	<goals_scored> 10 </goals_scored>
+</attacker>
+<attacker>
+<attacker_name> Samir Nasri </attacker_name>
+	<games_played> 24 </games_played>
+	<successful_passes> 1092 </successful_passes>
+	<pass_completion> 90% </pass_completion>
+	<chances_created> 52 </chances_created>
+	<assists> 6 </assists>
+	<total_shots> 34 </total_shots>
+	<goals_scored> 2 </goals_scored>
+</attacker>
+</team>
+</player_statistics>
