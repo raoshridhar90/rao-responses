@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Football Player Statistics</title>
+    <style>
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+</style>
+</head>
+
+<body>
+<div id="container">
+		<div id="mainpic">
+        	<h1><span class="lighter">Football Player Statistics</span></h1>
+            <h2>A project by Sridhar Rao</h2>
+        </div>   
+        
+        <div id="menu">
+        	<ul>
+            	<li class="menuitem"><a href="#">Home</a></li>
+                <li class="menuitem"><a href="#">About</a></li>
+                <li class="menuitem"><a href="#">Teams</a></li>
+                <li class="menuitem"><a href="#">Defenders</a></li>
+                <li class="menuitem"><a href="#">Goalkeepers</a></li>
+              <li class="menuitem"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        
+		<div id="content">
+        	<h2>Records: </h2>
+        	<p>&nbsp;</p>
+           	<p>&nbsp;</p>
+<br><br>
+       	  <table class="sortable" id="demo"></table>
+
+<script>
+    loadXMLDoc();
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+      myFunction(xmlhttp);
+    }
+  }
+  xmlhttp.open("GET", "football.xml", true);
+  xmlhttp.send();
+}
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<thead><tr><th>Attacker Name</th><th>Games Played</th><th>Successful Passes</th><th>Pass Completion</th><th>Chances Created</th><th>Assists</th><th>Total Shots</th><th>Goals Scored</th></tr></thead>";
+  var x = xmlDoc.getElementsByTagName("attacker");
+  table += "<tbody>";
+  for (i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("attacker_name")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("games_played")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("successful_passes")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("pass_completion")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("chances_created")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("assists")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("total_shots")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("goals_scored")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  table += "</tbody>";
+  document.getElementById("demo").innerHTML = table;
+}
+
+</script>
+            <p>&nbsp;</p>
+        	<p>&nbsp;</p>
+        	<p>&nbsp;</p>
+<p>&nbsp;</p>
+            
+            <div id="footer"><h3>Copyright &copy; 2015 - All Rights Reserved - Sridhar Rao</h3></div>
+      </div>
+   </div>
+</body>
+</html>
