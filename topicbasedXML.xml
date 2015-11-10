@@ -1,0 +1,74 @@
+<xml>
+
+<add_remove>
+	<mail>
+		<introduction> The first time you start the Mail app:
+
+		If you signed in to your Surface with a Microsoft account, your mail account is already set up. You can then add other accounts from Outlook, Gmail, AOL, Yahoo!, and even your work email (Exchange ActiveSync). 
+		If you signed in to your Surface with a local account, your mail account isn’t set up yet. You’ll need to add an account using an email address to begin using Mail. After you create the first email account, you can add other accounts.
+		</introduction>
+		<add>   Step 1: 	Go to Start Windows logo, and select Mail.
+				Step 2: 	In the lower-left corner of the Mail app, select Settings Mail settings icon.
+				Settings appear in a pane along the right edge of the Mail app window.
+				Step 3: 	Under Settings, select Accounts > Add account, choose the type of account you want to add, and follow the on-screen instructions. 
+				Repeat Steps 2 and 3 for each email account you want to add.
+
+				After you add an email account:
+
+				Contacts from your email account appear in the People app.
+				Appointments appear in the Calendar app.
+		</add>
+		<notes> 
+				You’ll need your user name (email address) and password to set up most email accounts. In some cases, you’ll need to provide more info, which you can usually find on your email account’s website. 
+		</notes>
+		<remove> Step 1: 	In the Mail app, select Settings > Accounts.
+				 Step 2: 	Select the account you want to remove and select Delete Account.
+		</remove>
+	</mail>
+		
+	<outlook>
+		<introduction> If you have a Microsoft Office 365 subscription or Office 2013, you have Outlook on your Surface. To learn about your options for using Outlook, see Install and use Microsoft Office on Surface.
+		</introduction>
+		<add> Step 1: 	Go to Start Windows logo, and select Outlook 2013.
+			  Account setup starts the first time you start Outlook.
+
+				If you don’t see Outlook on your Start menu, you can pin it there. Go to Start Windows logo, and select All apps. Press and hold (or right-click) Outlook 2013 and select Pin to Start.
+				Step 2: 	On the first page of account setup, select Next.
+				Step 3: 	On the Add an Email Account page, select Yes > Next.
+				Step 4: 	On the Auto Account Setup page, enter the required account info (name, email address, and password), and select Next.
+				Step 5: 	
+
+				After Outlook completes your account setup, you can either:
+
+					Select Finish.
+					Select Add another account.
+		</add>
+		<notes>
+				Add another account. If Account setup doesn’t start when you select Outlook 2013, you already have an account set up. To add another account, in Outlook, select File > Add Account (just above Account Settings).
+				Gmail. If you have problems when you try to add a Gmail account, you may need to enable Basic Authentication for your Gmail account. For info on how to do this, see Troubleshoot email. 
+		</notes>
+	</outlook>
+</add_remove>
+<change_account_settings>
+	<mail>
+		<change_settings> Step 1: 	Go to Start , and select Mail.
+						  Step 2: 	In the lower-left corner, select SettingsMail settings icon.
+						  Step 3: 	
+
+							Select Accounts and choose the account that you want to change.
+							Settings appear in a window along the right edge. In Settings, you can do things like your change your email password, choose how much email to download, or set up an email signature.
+						  Step 4: 	Change the settings you want and select Save.
+		</change_settings>
+		<notes> For more info about Mail app settings, see Troubleshoot email. </notes>
+	</mail>
+	<outlook>
+		<introduction> You might want to update your email account settings when your email account password changes or when you want to customize settings, such as how your name is displayed to other people. Here’s how to make a change: </introduction>
+		<change_settings> Step 1: 	Go to Start Windows logo, and select Outlook.
+							If you don’t see Outlook on your Start menu, you can pin it there. Go to Start Windows logo, and select All apps. Press and hold (or right-click) Outlook 2013 and select Pin to Start.
+							Step 2: 	Select File, select Account Settings, and in the list select Account Settings.
+							Step 3: 	Select the email account you want to change and select Change.
+
+							For more info, see Change email account settings.
+		</change_settings>
+	</outlook>
+</change_account_settings>
